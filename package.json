@@ -1,0 +1,24 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJPP-C2xJ3xP5x/pages.git"
+  },
+  "author": "Hsiang Nianian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJPP-C2xJ3xP5x/pages/issues"
+  },
+  "homepage": "https://github.com/CJPP-C2xJ3xP5x/pages#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  }
+}
