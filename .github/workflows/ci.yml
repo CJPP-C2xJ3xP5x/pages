@@ -2,7 +2,11 @@ name: CJPP-C2xJ3xP5x-pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main 
+  pull_request:
+    branches:
+      - gh-pages
 
 jobs:
   docs:
@@ -18,6 +22,10 @@ jobs:
         with:
           node-version: '14'
 
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: npm run docs:dev
       # - name: Cache dependencies
       #   uses: actions/cache@v2
       #   id: yarn-cache
@@ -30,15 +38,3 @@ jobs:
       # - name: Install dependencies
       #   if: steps.yarn-cache.outputs.cache-hit != 'true'
       #   run: yarn --frozen-lockfile
-
-      - name: Build VuePress site
-        run: npm run docs:build
-
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: gh-pages
-          build_dir: docs/.vuepress/dist
-          # fqdn: docs.go-cqhttp.org
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
