@@ -21,4 +21,4 @@ jobs:
       - run: echo 'node_modules' >> .gitignore
       - run: echo '.temp' >> .gitignore
       - run: echo '.cache' >> .gitignore
-      - run: npm run deploy
+      - run: npm run deployed
