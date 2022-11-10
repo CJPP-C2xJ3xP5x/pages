@@ -11,7 +11,7 @@
 如果如果你对于这个文档有好的建议或者补充, 欢迎提 pull request。
 
 ```bash
-git clone https://github.com/CJPP-C2xJ3xP5x/pages.git
+git clone https://github.com/CJPP-C2xJ3xP5x/pages
 # clone 源码
 
 npm install -D vuepress@next
