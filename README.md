@@ -5,15 +5,18 @@
 ## 贡献
 
 如果如果你对于这个文档有好的建议或者补充, 欢迎提 pull request。
-```
+
+```bash
 git clone https://github.com/CJPP-C2xJ3xP5x/pages.git
 # clone 源码
 
-cd pages
-
-yarn install
+npm install -D vuepress@next
 # 安装依赖
 
-yarn docs:dev
+#echo 'node_modules' >> .gitignore
+#echo '.temp' >> .gitignore
+#echo '.cache' >> .gitignore
+
+npm run docs:dev
 # 开始写作
 ```
