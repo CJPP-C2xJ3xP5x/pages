@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Hello WMTers","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1668027390000,"contributors":[{"name":"简律纯","email":"hsiangnianian@outlook.com","commits":1}]},"filePathRelative":"README.md"}');export{e as data};

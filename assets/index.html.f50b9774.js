@@ -1,0 +1,1 @@
+import{_ as t,o,c as s,a as e,b as a}from"./app.fb6ee901.js";const r={},c=e("h1",{id:"hello-wmters",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-wmters","aria-hidden":"true"},"#"),a(" Hello WMTers")],-1),n=e("p",null,"这里是WMT的草场...",-1),l=[c,n];function _(d,i){return o(),s("div",null,l)}const f=t(r,[["render",_],["__file","index.html.vue"]]);export{f as default};
